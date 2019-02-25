@@ -1,0 +1,265 @@
+/* grub css code revision: 2010-01-27 by Bruce Dubbs*/
+/* navigation menu code from: Andreas Viklund (http://andreasviklund.com) */
+
+body 
+{
+    margin         : 0px auto;
+    padding        : 0px;
+    width          : 800px;
+    font           : 76% "trebuchet ms", arial, helvetica, sans-serif;
+    background     : #f4f4f4 url(../pic/bg.png) top center repeat-y; /* Light Gray */
+}
+
+#wrap 
+{
+    background     : #ffffff;  /* White */
+    color          : #303030;  /* Dark Gray */
+    margin         : 0px auto;
+    width          : 760px;
+}
+
+#navmenu h2 
+{ 
+    font-size      : 1em;
+    margin         : 0px 0px 0.2em 0px;
+}
+
+#navmenu 
+{
+    clear          : left;
+    float          : left;
+    width          : 150px;
+    /* position       : fixed; */
+    margin         : 0px 0px 10px 0px;
+    padding        : 0px;
+    font-size      : 0.9em;
+}
+
+#navmenu ul 
+{  
+    list-style     : none;
+    width          : 150px;
+    margin         : 0px 0px 10px 0px;
+    padding        : 0px;
+    font-size      : 1em;
+}  
+
+#navmenu li 
+{
+    margin-bottom  : 4px;
+}
+
+#navmenu li a 
+{
+    font-weight    : bold;
+    height         : 18px;
+    text-decoration: none;
+    color          : #505050;           /* Medium Gray */
+    display        : block;
+    padding        : 6px 0px 0px 10px;
+    background     : #f4f4f4;           /* Light Gray */
+    border-left    : 4px solid #cccccc; /* Another light Gray */
+}  
+    
+#navmenu li a:hover 
+{
+    background     : #eaeaea;
+    color          : #286ea0;
+    border-left    : 4px solid #286ea0; /* Light Slate Blue */
+}
+
+#content 
+{
+    /* clear          : ; */
+    /* float          : left; */
+    width          : 575px;
+    /* position       : fixed; */
+    margin         : 0px 10px 10px 160px;
+    border-left    : 1px solid #f0f0f0; /* Very light Gray */
+    border-right   : 1px solid #f0f0f0; /* Very Light Gray */
+    padding        : 0px 10px 0px 10px;
+    line-height    : 1.6em;
+    text-align     : left;
+}
+
+#content h1 
+{ 
+    font-size      : 1.6em;
+    margin         : 0.5em 0px;
+}
+
+#content h2,h3,h4,h5 
+{
+    font-size      : 1.3em;
+    color          : #004C93;
+    margin         : 0px 0px 0.5em 0px;
+}
+
+#content img 
+{
+    padding        : 1px;
+    display        :inline;
+    background     : #cccccc;
+    border         : 4px solid #f0f0f0;
+}
+
+h3 
+{
+    font-size      : 1.3em;
+    margin         : 0px 0px 10px 0px; 
+}
+
+a 
+{
+    text-decoration: none;
+    color          : #286ea0;            /* Light Slate Blue */
+}
+
+a:hover 
+{
+    text-decoration: underline;
+    color          : #286ea0;            /* Light Slate Blue */
+}
+
+a img 
+{
+    border         : 0px;
+}                 
+    
+.left             
+{                 
+    margin         : 10px 10px 5px 0px;
+    float          : left;
+}                 
+    
+.right            
+{                 
+    margin         : 10px 0px 5px 10px;
+    float          : right;
+}                 
+    
+.textright        
+{                 
+    text-align     : right;
+}                 
+    
+.center           
+{                 
+    text-align     : center;
+}                 
+    
+.small            
+{                 
+    font-size      : 0.8em;
+}
+
+.bold 
+{
+    font-weight    : bold;
+}
+
+.hide 
+{
+    display        : none;
+}
+
+div .copyright 
+{
+    font-size      : 80%; 
+    border         : 2px solid #3366cc; /* Another light Slate Blue */
+    padding        : 4px;
+    background     : #f2f2f9;           /* Still another light Gray */
+    border-style   : solid;
+    border-width   : thin;
+}
+
+#program {
+    width: 90% !important;
+    margin: 0px auto;
+    font-size:100%;
+    line-height:1.33em;
+    padding: 10px;
+    border-collapse: collapse;
+    border-width:0px;
+    border-spacing:1px;
+    border-color:#c0c0c0 !important;
+    border: 1px solid #c0c0c0 !important;
+}
+#program td {
+    vertical-align: middle;
+    text-align: center;
+    border-width:1px;
+    border-color:#c0c0c0 !important;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:4px;
+    min-width: 72px;
+    padding-right:4px;
+    /* vertical-align: top; */
+    border: 1px solid #c0c0c0 !important;
+}
+
+#program th {
+    vertical-align: middle;
+    border-width:1px;
+    border-color:#c0c0c0 !important;
+    padding-top:4px;
+    padding-bottom:4px;
+    padding-left:4px;
+    padding-right:4px;
+    border: 1px solid #c0c0c0 !important;
+}
+/* #program_time { */
+/*     vertical-align: middle; */
+/*     border-width:1px; */
+/*     border-color:#c0c0c0 !important; */
+/*     padding-top:4px; */
+/*     padding-bottom:4px; */
+/*     padding-left:10px; */
+/*     padding-right:10px; */
+/*     vertical-align: top; */
+/*     border: 1px solid #c0c0c0 !important; */
+/*     white-space: nowrap; */
+/* } */
+/* #program th { */
+/*     background: #cfcfcf !important; */
+/*     text-align: left !important; */
+/*     vertical-align: middle; */
+/*     border-width:1px; */
+/*     border-color:#c0c0c0 !important; */
+/*     padding-top:4px; */
+/*     padding-bottom:4px; */
+/*     padding-left:10px; */
+/*     padding-right:10px; */
+/* } */
+/* #program_break { */
+/*     background: #f0f0f0 !important; */
+/*     vertical-align: middle; */
+/*     border-width:1px; */
+/*     padding-top:4px; */
+/*     padding-bottom:4px; */
+/*     padding-left:10px; */
+/*     padding-right:10px; */
+/*     font-weight: normal; */
+/*     font-style: italic; */
+/* } */
+/* #program_session { */
+/*     background: #f0f0f0 !important; */
+/*     vertical-align: middle; */
+/*     border-width:1px; */
+/*     padding-top:4px; */
+/*     padding-bottom:4px; */
+/*     padding-left:10px; */
+/*     padding-right:10px; */
+/*     font-weight: bold; */
+/* } */
+/* #program_intro { */
+/*     background: #e2e1dc !important; */
+/*     vertical-align: middle; */
+/*     border-width:1px; */
+/*     padding-top:4px; */
+/*     padding-bottom:4px; */
+/*     padding-left:10px; */
+/*     padding-right:10px; */
+/*     font-weight: bold; */
+/* } */
